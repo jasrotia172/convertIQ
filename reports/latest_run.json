@@ -1,0 +1,79 @@
+{
+  "version": "20261126T124223Z-b3e5f2",
+  "selected_model": "lightgbm__original",
+  "calibrated": true,
+  "threshold": 0.24,
+  "segments": {
+    "medium": 0.2,
+    "high": 0.5
+  },
+  "dataset_sha256": "b3055ee355f59134d851d32641183cb4a8b45def7124d2f50442a042f358e0d9",
+  "features": [
+    "Administrative",
+    "Informational",
+    "ProductRelated",
+    "Administrative_Duration",
+    "Informational_Duration",
+    "ProductRelated_Duration",
+    "BounceRates",
+    "ExitRates",
+    "SpecialDay",
+    "Month",
+    "OperatingSystems",
+    "Browser",
+    "Region",
+    "TrafficType",
+    "VisitorType",
+    "Weekend"
+  ],
+  "test_metrics": {
+    "accuracy": 0.7476788640087384,
+    "precision": 0.34,
+    "recall": 0.6538461538461539,
+    "f1": 0.4473684210526316,
+    "balanced_accuracy": 0.7094473487677371,
+    "log_loss": 0.3609695495732049,
+    "brier_score": 0.11302695251672135,
+    "roc_auc": 0.7886063774413288,
+    "average_precision": 0.37604914723958255,
+    "confusion_matrix": [
+      [
+        1182,
+        363
+      ],
+      [
+        99,
+        187
+      ]
+    ]
+  },
+  "validation_metrics": {
+    "accuracy": 0.7263790278536318,
+    "precision": 0.30275229357798167,
+    "recall": 0.5769230769230769,
+    "f1": 0.3971119133574007,
+    "balanced_accuracy": 0.6654841921832213,
+    "log_loss": 0.3730109682351627,
+    "brier_score": 0.11756927718295397,
+    "roc_auc": 0.7534908457238555,
+    "average_precision": 0.3505583821328954,
+    "confusion_matrix": [
+      [
+        1165,
+        380
+      ],
+      [
+        121,
+        165
+      ]
+    ]
+  },
+  "feature_screening": false,
+  "shap": {
+    "available": true,
+    "samples": 24,
+    "units": "probability"
+  },
+  "created_at": "2026-11-26T12:44:39.241096+00:00",
+  "scope": "Session-level propensity; not validated for early-session or causal use."
+}

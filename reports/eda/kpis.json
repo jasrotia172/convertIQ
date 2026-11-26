@@ -1,0 +1,15 @@
+{
+  "sessions": 12330.0,
+  "conversions": 1908.0,
+  "conversion_rate": 0.15474452554744525,
+  "non_conversion_rate": 0.8452554744525548,
+  "average_duration": 1310.037228435889,
+  "average_bounce_rate": 0.02219138047072152,
+  "average_exit_rate": 0.04307279776650371,
+  "conversion_ci": [
+    0.14846839560921418,
+    0.16123572771923841
+  ],
+  "Returning_Visitor_conversion_rate": 0.1393232868922377,
+  "New_Visitor_conversion_rate": 0.24911452184179456
+}

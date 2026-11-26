@@ -1,0 +1,8 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {"name": "ConvertIQ API", "type": "debugpy", "request": "launch", "module": "uvicorn", "args": ["api:app", "--host", "127.0.0.1", "--port", "8000"], "cwd": "${workspaceFolder}", "justMyCode": true},
+    {"name": "ConvertIQ Dashboard", "type": "debugpy", "request": "launch", "module": "streamlit", "args": ["run", "app.py"], "cwd": "${workspaceFolder}", "justMyCode": true},
+    {"name": "Train models", "type": "debugpy", "request": "launch", "module": "src.models.train", "cwd": "${workspaceFolder}", "env": {"MPLCONFIGDIR": "/tmp/convertiq-matplotlib"}, "justMyCode": true}
+  ]
+}

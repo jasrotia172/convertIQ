@@ -1,0 +1,10 @@
+{
+  "observations": [
+    "Observed conversion: 1,908/12,330 (15.47%).",
+    "95% Wilson interval: 14.85%\u201316.12%.",
+    "Among traffic codes with at least 100 sessions, code 8.0 has the highest observed rate (27.70%, n=343). Codes have no channel-name mapping.",
+    "Returning_Visitor: 13.93% observed conversion.",
+    "New_Visitor: 24.91% observed conversion."
+  ],
+  "limitations": "Exploratory associations; repeated tests adjusted with Bonferroni. Sparse chi-square cells weaken asymptotic inference. No causal or contemporary market claims."
+}
